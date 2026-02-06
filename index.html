@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tooba's Fun Store 🎉</title>
+<style>
+  body {
+    margin: 0;
+    font-family: 'Comic Sans MS', sans-serif;
+    background: #fffde7;
+    color: #333;
+  }
+  header {
+    background: #ff6f61;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 2.4em;
+    font-weight: bold;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    background: #ffd93d;
+    padding: 12px 0;
+  }
+  nav a {
+    margin: 0 18px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 1.15em;
+  }
+  section h2 {
+    text-align: center;
+    margin-top: 28px;
+    color: #ff6f61;
+    font-size: 2em;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+  }
+  .card {
+    background: white;
+    border: 3px solid #ff6f61;
+    border-radius: 18px;
+    margin: 16px;
+    width: 210px;
+    text-align: center;
+    padding: 18px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .card:hover {
+    transform: scale(1.07);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+  }
+  .card img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 10px;
+  }
+  .card p {
+    font-weight: bold;
+    font-size: 1.05em;
+    color: #333;
+  }
+  .buy-btn {
+    background: #ff6f61;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  .buy-btn:hover {
+    background: #e65c50;
+  }
+  footer {
+    text-align: center;
+    padding: 22px;
+    background: #ffd93d;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  .address {
+    text-align: center;
+    font-weight: bold;
+    margin: 15px 0;
+    color: #ff6f61;
+  }
+  @media (max-width: 600px) {
+    .card { width: 90%; }
+    nav { flex-direction: column; }
+    nav a { margin: 10px 0; }
+  }
+</style>
+</head>
+<body>
+
+<header>Tooba's Fun Store 🎉</header>
+
+<nav>
+  <a href="#usbs">USBs</a>
+  <a href="#movies">Movies & Cartoons</a>
+  <a href="#snacks">Snacks & Toffees</a>
+</nav>
+
+<div class="address">
+📦 USB Delivery Address: Chak 53/M, District Lodhran, Gali 2, House No 2, near RHC Hospital <br>
+📱 WhatsApp Orders: <a href="https://wa.me/923208847365" target="_blank">0320-8847365</a>
+</div>
+
+<!-- USB Section -->
+<section id="usbs">
+  <h2>USBs for Kids 💾</h2>
+  <div class="container">
+    <div class="card">
+      <img src="https://images.pexels.com/photos/33092/flash-memory-usb-stick.jpg?auto=compress&cs=tinysrgb&dpr=1&w=300" alt="USB Cartoon 1">
+      <p>Fun Cartoons USB</p>
+      <button class="buy-btn" onclick="window.location.href='https://wa.me/923208847365?text=I%20want%20to%20order%20Fun%20Cartoons%20USB';">Buy Now</button>
+    </div>
+    <div class="card">
+      <img src="https://images.pexels.com/photos/2888542/pexels-photo-2888542.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=300" alt="USB Drama">
+      <p>Drama USB Pack</p>
+      <button class="buy-btn" onclick="window.location.href='https://wa.me/923208847365?text=I%20want%20to%20order%20Drama%20USB%20Pack';">Buy Now</button>
+    </div>
+    <div class="card">
+      <img src="https://images.pexels.com/photos/267389/pexels-photo-267389.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=300" alt="USB Movie 1">
+      <p>Movie Hits USB</p>
+      <button class="buy-btn" onclick="window.location.href='https://wa.me/923208847365?text=I%20want%20to%20order%20Movie%20Hits%20USB';">Buy Now</button>
+    </div>
+  </div>
+</section>
+
+<!-- Movies Section -->
+<section id="movies">
+  <h2>Movies & Cartoons 🎬</h2>
+  <div class="container">
+    <div class="card">
+      <img src="https://images.pexels.com/photos/278417/pexels-photo-278417.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=300" alt="Adventure Movie">
+      <p>Adventure Movie</p>
+      <button class="buy-btn" onclick="window.location.href='https://wa.me/923208847365?text=I%20want%20to%20order%20Adventure%20Movie';">Buy Now</button>
+    </div>
+    <div class="card">
+      <img src="https://images.pexels.com/photos/799158/pexels-photo-799158.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=300" alt="Funny Cartoon">
+      <p>Funny Cartoon</p>
+      <button class="buy-btn" onclick="window.location.href='https://wa.me/923208847365?text=I%20want%20to%20order%20Funny%20Cartoon';">Buy Now</button>
+    </div>
+    <div class="card">
+      <img src="https://images.pexels.com/photos/638034/pexels-photo-638034.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=300" alt="Magic Drama">
+      <p>Magic Drama</p>
+      <button class="buy-btn" onclick="window.location.href='https://wa.me/923208847365?text=I%20want%20to%20order%20Magic%20Drama';">Buy Now</button>
+    </div>
+  </div>
+</section>
+
+<!-- Snacks Section -->
+<section id="snacks">
+  <h2>Snacks & Toffees 🍬🍿</h2>
+  <div class="container">
+    <div class="card">
+      <img src="https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=300" alt="Leemo">
+      <p>Leemo Pack</p>
+      <button class="buy-btn" onclick="window.location.href='https://wa.me/923208847365?text=I%20want%20to%20order%20Leemo%20Pack';">Buy Now</button>
+    </div>
+    <div class="card">
+      <img src="https://images.pexels.com/photos/302680/pexels-photo-302680.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=300" alt="Biryani Papri">
+      <p>Biryani Papri</p>
+      <button class="buy-btn" onclick="window.location.href='https://wa.me/923208847365?text=I%20want%20to%20order%20Biryani%20Papri';">Buy Now</button>
+    </div>
+    <div class="card">
+      <img src="https://images.pexels.com/photos/1702427/pexels-photo-1702427.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=300" alt="Nimko">
+      <p>Crunchy Nimko</p>
+      <button class="buy-btn" onclick="window.location.href='https://wa.me/923208847365?text=I%20want%20to%20order%20Nimko';">Buy Now</button>
+    </div>
+    <div class="card">
+      <img src="https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=300" alt="Toffee">
+      <p>Sweet Toffee</p>
+      <button class="buy-btn" onclick="window.location.href='https://wa.me/923208847365?text=I%20want%20to%20order%20Toffee';">Buy Now</button>
+    </div>
+    <div class="card">
+      <img src="https://images.pexels.com/photos/247466/pexels-photo-247466.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=300" alt="Boom Boom Babl">
+      <p>Boom Boom Babl!</p>
+      <button class="buy-btn" onclick="window.location.href='https://wa.me/923208847365?text=I%20want%20to%20order%20Boom%20Boom%20Babl';">Buy Now</button>
+    </div>
+  </div>
+</section>
+
+<footer>
+© 2026 Tooba's Fun Store - All Rights Reserved
+</footer>
+
+</body>
+</html>
